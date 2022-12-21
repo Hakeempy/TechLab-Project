@@ -122,6 +122,13 @@ button:hover {
     background-color: black;
 }
 
+/* Second secction */
+    #second-section {
+        background-color: rgb(226, 224, 224);
+        margin-top: 10px;
+        height: 500px;
+    }
+
 /* Slideshow */   
     #third-section{
         margin-top: 10px;
