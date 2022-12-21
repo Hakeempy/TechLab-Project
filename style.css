@@ -19,7 +19,11 @@
     background-position: center;
     background-size: cover;
     
-} */
+} */    
+
+body {
+    overflow-x: hidden;
+}
 
 nav {
     margin-left: 50px;
