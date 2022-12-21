@@ -42,13 +42,47 @@ a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    margin-top: 20px;
+    position: relative;
 }
 
+/* a:hover {
+    font-size: 25px;
+    border-bottom: 3px solid white;
+    width: 100px;
+    
+} */
+
 button {
-    background-color: grey;
+    background-color: white;
     width: 80px;
     height: 50px;
     border-radius: 20px;
     border: none;
+}
+
+.hover-effect:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    bottom: -3px;
+    right: 0px;
+    transition: all 300ms ease;
+}
+
+.hover-effect:hover:after {
+    content: "";
+    width: 100px;
+    left: 0;
+}
+
+.hover-effect_black:after {
+    background-color: white;
+}
+
+.hover-effect_black:hover:after {
+    width: 100%;
+    left: 0;
 }
 
