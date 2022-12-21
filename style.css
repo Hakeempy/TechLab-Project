@@ -122,7 +122,10 @@ button:hover {
     background-color: black;
 }
 
-/* Slideshow */    
+/* Slideshow */   
+    #third-section{
+        margin-top: 10px;
+    }
     /* Styling the area of the slides */
     #slideshow {
     overflow: hidden;
@@ -154,20 +157,32 @@ button:hover {
     /* Set the background color
     of each of the slides */
     .slide:nth-child(1) {
-    background: green;
+    /* background: green; */
+    background-image: url(./assets/pexels-luiz-m-santos-760281.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     }
     
     .slide:nth-child(2) {
-    background: pink;
+    /* background: pink; */
+    background-image: url(./assets/pexels-mark-stebnicki-2252584.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     }
     
     .slide:nth-child(3) {
-    background: red;
+    /* background: red; */
+    background-image: url(./assets/pexels-quang-nguyen-vinh-2131784.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     }
     
     .slide:nth-child(4) {
     /* background: yellow; */
-    background-image: url(./assets/pexels-quang-nguyen-vinh-2165688.jpg);
+    background-image: url(./assets/pexels-quang-nguyen-vinh-2135677.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
