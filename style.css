@@ -67,7 +67,7 @@ nav {
     margin-right: 50px;
 }
 
-a {
+.astyle {
     padding: 10px;
     color: white;
     text-decoration: none;
@@ -246,4 +246,31 @@ button:hover {
         margin-left: calc(-100vw * 3);
     }
     }
+
+/* FOOTER */
+
+#footer_section {
+    margin-top: 10px;
+    height: 500px;
+    background-color: #17293E;
+}
+
+.footer_column1 {
+    padding: 70px;
+    display: flex;
+}
+
+h3 {
+    color: #FFFFFF;
+    margin-left: 10px;
+   
+}
+
+.footer_links {
+    color: #FFFFFF;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+}
     
