@@ -273,4 +273,8 @@ h3 {
     text-decoration: none;
     display: flex;
 }
+
+.footer_container {
+    display: flex;
+}
     
