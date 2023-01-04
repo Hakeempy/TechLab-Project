@@ -260,7 +260,7 @@ button:hover {
     display: flex;
 }
 
-h3 {
+.h3_title {
     color: #FFFFFF;
     margin-left: 10px;
    
@@ -277,4 +277,13 @@ h3 {
 .footer_container {
     display: flex;
 }
+
+.agro_logo {
+    position: absolute;
+    right: 20px;
+    padding-top: 70px;
+    width: 200px;
+}
+
+
     
