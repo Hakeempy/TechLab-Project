@@ -22,6 +22,7 @@
 } */    
 
 body {
+    width: 100vw;
     overflow-x: hidden;
 }
 
@@ -260,6 +261,11 @@ button:hover {
     display: flex;
 }
 
+/* .footer_column2 {
+    padding: 70px;
+    display: flex;
+} */
+
 .h3_title {
     color: #FFFFFF;
     margin-left: 10px;
@@ -279,11 +285,28 @@ button:hover {
 }
 
 .agro_logo {
-    position: absolute;
+    /* position: absolute; */
     right: 20px;
     padding-top: 70px;
     width: 200px;
 }
 
+/* .social-icons {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    height: 60px;
+    width: 60px;
+    margin-top: 70px;
+    margin-right: 70px;
+} */
 
+.logo-wrapper {
+    display: flex;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
     
